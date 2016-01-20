@@ -70,7 +70,7 @@ Take some time to connect your Express API to your Angular application.  You hav
 
 **Breakpoint**: You should be able to add items to a user's cart, view the cart, create and view orders.
 
-If you pass that breakpoint, then congrats!  You've just built your first full-stack application!  What you've just done is the basics of building any CRUD app.
+If you pass that breakpoint, then congrats!  You've just built your first full-stack application!  What you've just done is the basics of building any crud app.
 
 ## Contributions
 If you see a problem or a typo, please fork, make the necessary changes, and create a pull request so we can review your changes and merge them into the master repo and branch.

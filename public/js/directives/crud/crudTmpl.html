@@ -1,0 +1,33 @@
+
+<div class="uiWrapper">
+  <div class="crudPane">
+    <button id="createButton" class="buttons" ng-click="createSomething()">Create</button>
+    <input type="text" required placeholder="enter name here" ng-model="input.name"></input>
+    <input type="text" required placeholder="enter quantity here" ng-model="input.quantity"></input>
+    <hr>
+    <div height="20px">d</div>
+    <hr>
+
+    <input type="text" placeholder="enter id here" ng-model="input.id"></input>
+    <hr>
+    <input type="text" placeholder="enter name here" ng-model="input.name"></input>
+    <hr>
+    <input type="text" placeholder="enter quantity here" ng-model="input.quantity"></input>
+    <hr>
+
+    <button id="retrieveButton" class="buttons" ng-click="retrieveSomething()">Retrieve</button>
+    <button id="updateButton" class="buttons" ng-click="updateSomething()">Update</button>
+    <button id="deleteButton" class="buttons" ng-click="deleteSomething()">Delete</button>
+    <hr>
+
+    <hr>
+    <div>display results here</div>
+    <hr>
+  </div>
+
+  <!-- the <dbObjects-directive> element tag in
+index.html is requesting an action
+from loginDirective, which is returning
+the contents of dbObjectsTempl.html
+it then loads that onto the DOM
+at the tags location-->

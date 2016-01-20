@@ -1,0 +1,22 @@
+<!-- testing that this file is displaying text
+where it is plugged into the DOM by the directive -->
+<div class="dbObjectsWrapper">
+  <div id="dbObjectsStretch">
+    <div ng-controller="dbObjectsCtrl" width="900px" height="900px">
+      <dbObjects id="dbObjects" width="600" height="300"></dbObjects>
+      <div class="botButtonWrap">
+        <a ng-click="drawSquares()" id="drawSquares" class="buttons">Random Squares</a>
+        <a ng-click="cleardbObjects()" id="clearScreen" class="buttons">Clear screen</a>
+        <a ng-click="clearShareddbObjects()" id="clearAllScreens" class="buttons">Clear all screens</a>
+        <a ng-click="reSync()" id="reSync" class="buttons">Synchronize</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- the <dbObjects-directive> element tag in
+index.html is requesting an action
+from loginDirective, which is returning
+the contents of dbObjectsTempl.html
+it then loads that onto the DOM
+at the tags location-->

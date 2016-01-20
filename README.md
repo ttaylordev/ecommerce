@@ -63,7 +63,7 @@ Once again, this is going to be very similar to what we did in the mini-project 
 
 Complete the above Express endpoints so they do exactly what they imply.
 
-**Breakpoint**: At this point you should be able to hit an endpoint and have it touching your database (creating, reading, updating, or deleting a product in Mongo).  Use Postman to hit your endpoints.  You should be able to get a response back in Postman, and be able to see your data being manipulated in your database.  You can check your database via the terminal or [RoboMongo](http://robomongo.org/).
+**Breakpoint**: At this point you should be able to hit an endpoint and have it touching your database (creating, reading, updating, or deleting a product in Mongo).  Use Postman to hit your endpoints.  You should be able to get a response back in Postman, and be able to see your data being manipulated in your database.  You can check your database via the terminal or [RoboMongo](http://robomongo.org/).or[Mongo Chef](http://http://3t.io/mongochef/)
 
 ### Step 4: Create Front-end Interface
 
